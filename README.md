@@ -30,13 +30,13 @@
 
 3. Structure
 
-| Page             | Description                                        |
-| ---------------- | -------------------------------------------------- |
-| Default Page     | ![Default page](/img/readme/default.png)<br>       |
-| Input the data   | ![Input Page](/img/readme/submit_form.png)<br>     |
-| Success response | ![Success page](/img/readme/success_laura.png)<br> |
-| MySQL Table      | ![Success page](/img/readme/MySQL_table.png)<br>   |
-| MYSQL Data       | ![Success page](/img/readme/MySQL_data.png)<br>    |
-| Invalid email    | ![error page](/img/readme/invalid_email.png)<br>   |
-| Invalid phone    | ![error page](/img/readme/invalid_phone.png)<br>   |
-| Success response | ![Success page](/img/readme/success_laura.png)<br> |
+| Page             | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| Default Page     | ![Default page](./img/readme/default.png)<br>       |
+| Input the data   | ![Input Page](./img/readme/submit_form.png)<br>     |
+| Success response | ![Success page](./img/readme/success_laura.png)<br> |
+| MySQL Table      | ![Success page](./img/readme/MySQL_table.png)<br>   |
+| MYSQL Data       | ![Success page](./img/readme/MySQL_data.png)<br>    |
+| Invalid email    | ![error page](./img/readme/invalid_email.png)<br>   |
+| Invalid phone    | ![error page](./img/readme/invalid_phone.png)<br>   |
+| Success response | ![Success page](./img/readme/success_laura.png)<br> |
