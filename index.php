@@ -5,7 +5,7 @@ $respond_message = "";
 $mobileregex = "/^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$/";
 
 $success_message = "Thanks, $name!\nYour message was submitted successfully!";
-$error_message = "* There was an error with your submition. Please try again.";
+$error_message = "* There was an error with your submission. Please try again.";
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
  
