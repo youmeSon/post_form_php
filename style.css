@@ -14,6 +14,7 @@ label {
 .form_wrapper {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin: auto;
   margin-top: 1.2rem;
   text-align: center;
@@ -75,4 +76,24 @@ label {
 
 .form__btn:hover {
   transform: scale(1.1);
+}
+
+.form__output {
+  width: 30rem;
+  height: 90vh;
+  position: absolute;
+  border-radius: 1.5rem;
+}
+
+#response {
+  transform: translateY(7rem);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.respond__img {
+  margin: auto;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
 }
