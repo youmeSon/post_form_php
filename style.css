@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: rgb(218, 195, 197);
 }
 
 label {
@@ -28,22 +29,26 @@ label {
 }
 
 .form__name,
-.form__phone {
+.form__phone,
+.form__email {
   width: 100%;
   margin: 1em 0;
   color: rgb(238, 117, 117);
 }
 
 #name,
-#phone {
+#phone,
+#email {
+  width: 15rem;
   height: 1.7rem;
   outline: none;
+  color: rgb(163, 157, 157);
 }
 
 .form__message {
   display: flex;
   flex-direction: column;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
 }
 
 #id {
@@ -53,8 +58,8 @@ label {
 #message {
   outline: none;
   border: 3px solid pink;
-  border-radius: 1rem;
-  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .form__btn {

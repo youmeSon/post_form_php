@@ -12,12 +12,26 @@
       <h1 class="form__title">Contact Form</h1>
       <form action="index.php" method="post">
         <div class="form__name">
-          <label for="name">Name: </label>
+          <label for="name">Name : </label>
           <input id="name" name="name" type="text" />
         </div>
         <div class="form__phone">
-          <label for="phone">Phone: </label>
-          <input id="phone" name="phone" type="text" />
+          <label for="phone">Phone : </label>
+          <input
+            id="phone"
+            name="phone"
+            type="text"
+            placeholder="07222 555555"
+          />
+        </div>
+        <div class="form__email">
+          <label for="email">Email : </label>
+          <input
+            id="email"
+            name="email"
+            type="text"
+            placeholder="hello@gmail.com"
+          />
         </div>
         <div class="form__message">
           <label for="message"></label>
@@ -30,7 +44,7 @@
           ></textarea>
         </div>
 
-        <button class="form__btn" type="submit">Submit</button>
+        <button class="form__btn" name="submit" type="submit">Submit</button>
       </form>
     </div>
   </body>
