@@ -4,19 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Blog</title>
   </head>
   <body>
     <div class="form_wrapper">
-      <h1>Post</h1>
+      <h1 class="form__title">Contact Form</h1>
       <form action="index.php" method="post">
-        <label for="name">Name: </label>
-        <input id="name" name="name" type="text" />
-        <label for="phone">Phone: </label>
-        <input id="phone" name="phone" type="text" />
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="5" cols="33"></textarea>
-        <button type="submit">Submit</button>
+        <div class="form__name">
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" />
+        </div>
+        <div class="form__phone">
+          <label for="phone">Phone: </label>
+          <input id="phone" name="phone" type="text" />
+        </div>
+        <div class="form__message">
+          <label for="message"></label>
+          <textarea
+            id="message"
+            name="message"
+            rows="20"
+            cols="33"
+            placeholder="Enter your message..."
+          ></textarea>
+        </div>
+
+        <button class="form__btn" type="submit">Submit</button>
       </form>
     </div>
   </body>
